@@ -216,10 +216,10 @@ header{
 }
 
 .livello .livello-text h2, .livello .livello-text h4{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.livello .livello-text h2{
+.livello .livello-text h2, .chiusura-text h2{
   font-size: 35px;
 }
 
@@ -231,4 +231,37 @@ header{
 .livello .livello-text a{
   font-size: 12px;
   color: blue;
+}
+
+.chiusura{
+  height: 120px;
+  background-color: lightgrey;
+}
+
+select{
+  border:0px;
+  background-color: lightgrey;
+  text-decoration: underline;
+  color: grey;
+}
+
+.chiusura-text, .chiusura-form{
+  width: 50%;
+  line-height: 120px;
+}
+
+.chiusura-form{
+  text-align: right;
+}
+
+.chiusura span{
+  color: grey;
+  padding-right: 20px;
+}
+
+.chiusura a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 20px;
 }
