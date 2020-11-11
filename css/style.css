@@ -8,10 +8,18 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header a{
+header a, .help a{
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+}
+
+.help{
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  position: fixed;
+  margin-bottom: 10px;
 }
 
 li{
