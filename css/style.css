@@ -8,6 +8,19 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+a:hover{
+  background-color: white;
+  color: rgb(15, 53, 98);
+}
+
+.btn-green:hover{
+  color: rgb(94, 172, 0);
+}
+
+.help:hover{
+  border: 5px solid rgb(94, 172, 0);
+}
+
 header a, .help a{
   text-decoration: none;
   text-transform: uppercase;
@@ -238,7 +251,12 @@ header{
 
 .livello .livello-text a{
   font-size: 12px;
-  color: blue;
+  color: rgb(15, 53, 98);
+}
+
+.livello-text a:hover{
+  background-color: rgb(15, 53, 98);
+  color: white;
 }
 
 .chiusura{
