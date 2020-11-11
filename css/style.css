@@ -152,3 +152,41 @@ header{
 .scuole-text h4{
   color: grey;
 }
+
+.programma{
+  /* background-color: lightblue; */
+  text-align: center;
+}
+
+.programma .container{
+  /* background-color: pink */
+}
+
+.box{
+  width: 33.33%;
+  /* background-color: green; */
+  padding: 30px 60px;
+}
+
+.Immagine-programma{
+  height: 150px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Immagine-programma img{
+  height: 100%
+}
+
+.programma h2{
+  color: rgb(94, 172, 0);
+}
+
+.programma hr{
+  width: 25%;
+  margin: 20px auto;
+}
+
+.programma p{
+  color: lightgrey;
+}
