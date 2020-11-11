@@ -10,11 +10,18 @@ body{
 
 a{
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
 }
 
 li{
   list-style-type: none;
+}
+
+h1{
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
 }
 
 .container{
@@ -36,20 +43,22 @@ li{
 
 header{
   width: 100%;
-  height: 550px;
   background-color: rgb(15, 53, 98);
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
 
 .header-nav{
   height: 80px;
-  text-transform: uppercase;
   padding-top: 10px;
 
   /* background-color: yellow; */
 }
 
 .header-nav-logo{
-  width: 20%;
+  width: 15%;
   height: 100%;
   position: relative;
 
@@ -65,7 +74,7 @@ header{
 }
 
 .header-nav-menu{
-  width: 40%;
+  width: 45%;
   height: 100%;
 
   /* background-color: green; */
@@ -74,7 +83,7 @@ header{
 .header-nav-menu li, .header-nav-button li{
   display: inline-block;
   line-height: 80px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .header-nav-button{
@@ -83,4 +92,19 @@ header{
   text-align: right;
 
   /* background-color: violet; */
+}
+
+.jumbotron{
+  height: 470px;
+  position: relative;
+
+  /* background-color: pink; */
+}
+
+.jumbotron .jumbotron-text{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translatey(-50%);
 }
